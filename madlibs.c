@@ -20,11 +20,12 @@ int main()
     fgets(name, sizeof(name), stdin);
     name[strcspn(name, "\n")] = '\0';
 
-    printf("Roses are %s\n", color);
+    printf("\nRoses are %s\n", color);
     printf("%s are blue\n", noun);
     printf("I love %s\n", name);
-    printf("Press ENTER to exit the program!");
-    scanf("%0s");
+    
+    printf("\nPress ENTER to exit the program!");
+    getchar();
 
     return 0;
 }
