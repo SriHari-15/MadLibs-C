@@ -23,6 +23,8 @@ int main()
     printf("Roses are %s\n", color);
     printf("%s are blue\n", noun);
     printf("I love %s\n", name);
+    printf("Press ENTER to exit the program!");
+    scanf("%0s");
 
     return 0;
 }
